@@ -4,14 +4,14 @@
 " Last Modified Date: 17.10.2019
 " Last Modified By  : @yzlnew <yzlnew@gmail.com>
 
-let s:black = [ '#08040B', 235 ]
-let s:gray = [ '#27214d', 100 ]
-let s:white = [ '#c6e4e4', 250 ]
-let s:blue = [ '#00a7b5' , 67 ]
-let s:green = [ '#a9d400', 71 ]
-let s:purple = [ '#301d78', 104 ]
-let s:red = [ '#d42450', 204 ]
-let s:yellow = [ '#d95702', 222 ]
+let s:black =  '#08040B'
+let s:gray =  '#27214d'
+let s:white =  '#c6e4e4'
+let s:blue =  '#00a7b5'
+let s:green =  '#a9d400'
+let s:purple =  '#301d78'
+let s:red =  '#d42450'
+let s:yellow =  '#d95702'
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 let s:p.normal.left = [ [ s:black, s:purple ], [ s:purple, s:gray ] ]
